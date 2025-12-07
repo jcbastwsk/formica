@@ -1,0 +1,40 @@
+# Build files
+build/
+*.o
+*.obj
+*.user
+Makefile*
+*.pro.user*
+
+# Qt MOC files
+moc_*
+ui_*
+qrc_*
+*.moc
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Settings (optional - remove if you want to share settings)
+*.ini
+*.conf
